@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f3f4f6;
+  padding: 40px;
+}
+
+/* Title */
+h1 {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+/* Container */
+.container {
+  max-width: 700px;
+  margin: auto;
+}
+
+/* BOX (CARD) */
+.card {
+  background: #b19b9b;
+  padding: 25px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+
+  /* 👇 This creates proper box look */
+  border: 1px solid #81a4d7;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.08);
+}
+
+/* Heading */
+.card h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Text */
+.card p {
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+/* Italic intro */
+.italic {
+  font-style: italic;
+  color: #352f64;
+  margin: 10px 0;
+}
+.card:hover {
+  transform: translateY(-5px);
+  transition: 0.3s;
+}
